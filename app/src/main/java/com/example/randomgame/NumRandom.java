@@ -7,21 +7,6 @@ public class NumRandom {
     int minRange=1;
     int maxRange=100;
 
-    public int getMinRange() {
-        return minRange;
-    }
-
-    public void setMinRange(int minRange) {
-        this.minRange = minRange;
-    }
-
-    public int getMaxRange() {
-        return maxRange;
-    }
-
-    public void setMaxRange(int maxRange) {
-        this.maxRange = maxRange;
-    }
 
     Random rand=new Random();
 
